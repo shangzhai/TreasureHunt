@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+    <RelativeLayout 
+    android:id="@+id/top"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true">
+<LinearLayout 
+    android:id="@+id/one"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    
+    >
+    <EditText 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/location"
+        android:hint="City name"
+        
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        />
+    
+    
+</LinearLayout>
+<LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+   android:id="@+id/two"
+    android:layout_below="@+id/one">
+    <EditText 
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:hint="longitude"
+        android:id="@+id/lon"
+        
+        
+        />
+ 
+  <EditText 
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:hint="latitude"
+        android:id="@+id/lat"
+        
+        
+        />
+    
+</LinearLayout>
+ <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_toRightOf="@+id/two"
+        android:layout_marginTop="10dp"
+        android:id="@+id/button1"
+        android:background="@color/wheat"
+        android:textColor="@color/white"
+     />
+    </RelativeLayout>
+<TextView 
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        
+        android:textSize="20dp"
+    />
+<LinearLayout 
+     android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+    android:layout_centerHorizontal="true"
+    android:orientation="horizontal"
+    android:id="@+id/status"
+    >
+<TextView 
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        
+        
+    />
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/con"
+        android:layout_marginTop="-5dp"
+        />
+</LinearLayout>
+    <TextView 
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:textSize="50dp"
+        
+        android:layout_below="@+id/status"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-10dp"
+    />
+
+    
+
+<TableLayout 
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+    >
+     <TableRow>
+        <TextView android:text="Wind:" />
+        <TextView android:id="@+id/wind"/>
+     
+    </TableRow>
+     <TableRow>
+        <TextView android:text="Pressure:" />
+        <TextView android:id="@+id/Pressure" />
+     
+    </TableRow>
+     <TableRow>
+        <TextView android:text="Humidity:" />
+        <TextView android:id="@+id/Humidity" />
+     
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Sunrise:" />
+        <TextView android:id="@+id/Sunrise"/>
+     
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Sunset:" />
+        <TextView android:id="@+id/Sunset"/>
+     
+    </TableRow>
+     <TableRow>
+        <TextView android:text="Lastupdate:" />
+        <TextView android:id="@+id/Lastupdate"/>
+     
+    </TableRow>
+    
+    
+</TableLayout>
+
+</RelativeLayout>

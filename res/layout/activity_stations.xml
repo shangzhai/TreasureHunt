@@ -1,0 +1,70 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:scrollbars="vertical">
+<LinearLayout 
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+<LinearLayout
+      android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+     >
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a station" />
+    <Spinner 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/station"
+        />
+    
+    
+</LinearLayout>
+
+<TextView 
+          
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basic information"
+        android:shadowColor="#B0000000"
+        android:shadowRadius="1" 
+         android:shadowDx="0" 
+           android:shadowDy="2"
+          
+        
+    />
+
+<ListView 
+    android:id="@+id/listView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    ></ListView>
+
+<TextView 
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facilities"
+        android:shadowColor="#B0000000"
+        android:shadowRadius="1" 
+         android:shadowDx="0" 
+           android:shadowDy="2"
+          
+        
+    />
+
+<ListView 
+    android:id="@+id/listView02"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    ></ListView>
+  
+
+</LinearLayout>
+</ScrollView>

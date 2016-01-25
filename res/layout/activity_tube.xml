@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+ <LinearLayout 
+     android:layout_width="match_parent"
+     android:layout_height="0px"
+     android:layout_weight="1"
+     ></LinearLayout>
+ <LinearLayout 
+     android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    >
+     <Button
+        android:id="@+id/button1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Station details" 
+        android:background="@color/wheat"
+        android:textColor="@color/white"
+      />
+      <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Line status" 
+         android:layout_marginTop="30dp"
+         android:background="@color/wheat"
+        android:textColor="@color/white"
+      />
+       <Button
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Tube this weekend" 
+         android:layout_marginTop="30dp"
+         android:background="@color/wheat"
+        android:textColor="@color/white"
+      />
+    
+  </LinearLayout>
+  <LinearLayout  
+      android:layout_width="match_parent"
+      android:layout_height="0px"
+     android:layout_weight="1"></LinearLayout>
+
+</LinearLayout>

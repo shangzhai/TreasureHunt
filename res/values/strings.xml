@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Treasure Hunt</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_choose_clues">ChooseClues</string>
+    <string name="title_activity_shopping_clues">ShoppingClues</string>
+
+    <string-array name="shopping">
+        <item>What is the website address of M&amp;S? e.g.(www.XXX.com)</item>
+        <item>What is the price of a Boy London T-shirt in Selfridges of London?(£)</item>
+        <item>How many new arrivals for this week on HM.com?</item>
+        <item>How many rings on the hand of the woman called Hailey Baldwin on the Topshop website?</item>
+        <item>What is the UK landline for online enquiries of Harrods?</item>
+        <item>Just enter you email address and We will sent you the voucher code for 20% off discount!</item>
+    </string-array>
+    <string-array name="food">
+        <item>Take the underground to the Warren Street station, find the 82 Cleveland St, what is the name of this restaurant?</item>
+        <item>Keep going to Piccadilly Circus station, and get to 56 Brewer St, which country this restaurant is from?</item>
+        <item>Then take the underground to Leicester Square station and go to the Chinatown, there is a restaurant called HaoZhan, how much is its crispy duck meal per person?</item>
+        <item>How long will it take you to reach Tottenham Court Road station from Leicester Square station by underground?(mins)</item>
+        <item>When you arrive, go out of the station and get to 53 St Giles High St, there is a Korean restaurant called ASSA, how many lamps above the sign of the restaurant? NB: This is a final and time limit question.</item>
+        <item>Well done! You have finished all the questions! Just enter your name and the treasure will be given to you after getting through it.</item>
+    </string-array>
+    <string-array name="fun">
+        <item>Go to timeout.com and find what is the UK box office top one film recently?</item>
+        <item>Click the fourth of that top ten ranking, what date was that girl missing?(in format dd/mm/yyyy)</item>
+        <item>Read the below article carefully, what is the seventh name appearing in the text?</item>
+        <item>Last question! How many movies does Rosamund Pike have? The answer is hidden after one link on this page, try to find it and enter the number!</item>
+        <item>Good job! Here is your QR code for a free film in any ODEON cinema! Just scan it when you enter the cinema.</item>
+    </string-array>
+
+    <string name="Harrods">87–135 Brompton Road, Knightsbridge, Lonwdon SW1X 7XL, United Kingdom -0.163234,51.499405</string>
+    <string name="Selfridges">400 Oxford Street, London W1A 1AB, United Kingdom -0.152906,51.514145</string>
+    <string name="MS">458 Oxford Street, London W1C 1AP, United Kingdom -0.154428,51.514129</string>
+    <string name="Topshop">216 Oxford Street, London W1W 8LG, United Kingdom -0.141396,51.5157</string>
+    <string name="HM">234 Regent Street, London W1B 3BR, United Kingdom -0.141166,51.514182</string>
+    <string name="title_activity_food_clues">FoodClues</string>
+    <string name="title_activity_ent_clues">EntClues</string>
+    <string name="title_activity_map_main">MapMain</string>
+    
+    <string name="title_activity_tube">Tube</string>
+    <string name="title_activity_stations">Stations</string>
+    <string name="title_activity_lines">Lines</string>
+    <string name="title_activity_tube_weekend">TubeWeekend</string>
+    <string name="title_activity_cicle_hire">CicleHire</string>
+    <string name="title_activity_weather">Weather</string>
+
+</resources>

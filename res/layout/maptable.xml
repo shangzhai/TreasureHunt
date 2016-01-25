@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:stretchColumns="*" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start:" 
+        android:textColor="@color/lawngreen"
+        android:textSize="18dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="My position"
+        >
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/lawngreen"
+        android:textSize="18dp"
+        android:text="Destination:" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="" >
+    </EditText>
+    <TextView 
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="OR"
+        
+        android:gravity="center_horizontal"
+        />
+    <TableRow 
+        
+        >
+        <EditText 
+            android:id="@+id/lon"
+            android:layout_width="0px"
+            android:hint="longitude"
+            />
+        <EditText 
+            android:id="@+id/lat"
+            android:layout_width="0px"
+            android:hint="latitude"
+            />
+    </TableRow>
+
+</TableLayout>

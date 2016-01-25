@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".FoodClues" >
+ <ImageView 
+        
+        android:id="@+id/imgView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        
+        
+        android:src="@drawable/q0"
+        />
+
+ <TextView
+     android:id="@+id/textView1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+    
+     android:layout_toRightOf="@+id/imgView1"
+     
+     android:text="What is the website address of M&amp;S? e.g.(www.XXX.com)"
+     android:textAppearance="?android:attr/textAppearanceMedium" />
+
+ <EditText
+     android:id="@+id/editText1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_centerHorizontal="true"
+     android:layout_centerVertical="true"
+     android:ems="10" >
+
+     <requestFocus />
+ </EditText>
+ 
+ <Button
+     android:layout_width="150dp"
+     android:layout_height="40dp"
+     android:background="@color/violet"
+     android:textColor="@color/white"
+     android:layout_below="@+id/editText1"
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="100dp"
+     android:id="@+id/button1"
+     android:text="Submit"
+      />
+ 
+  <Button
+     android:layout_width="150dp"
+     android:layout_height="40dp"
+     android:background="@color/violet"
+     android:textColor="@color/white"
+     android:layout_below="@+id/editText1"
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="40dp"
+     android:id="@+id/button2"
+     android:text="Go to the Map"
+      />
+
+ <TextView
+     android:id="@+id/textView2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/editText1"
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="20dp"
+     
+     android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

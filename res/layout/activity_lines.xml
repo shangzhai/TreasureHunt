@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+<TextView 
+          android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service updates"
+        android:shadowColor="#B0000000"
+        android:shadowRadius="1" 
+         android:shadowDx="0" 
+           android:shadowDy="2"
+           android:layout_centerHorizontal="true"
+           android:textSize="20dp"
+          
+        
+    />
+<ListView 
+        android:id="@+id/listView01"
+        android:layout_below="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    ></ListView>
+<TextView 
+    android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listView01"
+        android:layout_alignParentRight="true"
+    />
+<Button 
+    android:id="@+id/button1"
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="50dp"
+        android:text="Now"
+        android:background="@color/wheat"
+        android:textColor="@color/white"
+    />
+
+<Button 
+    android:id="@+id/button2"
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_toRightOf="@+id/button1"
+        android:layout_marginLeft="50dp"
+        android:text="Night"
+        android:background="@color/wheat"
+        android:textColor="@color/white"
+    />
+
+</RelativeLayout>
